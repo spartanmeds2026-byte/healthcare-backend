@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgres://neondb_owner:npg_EyuYWUTi81DI@ep-damp-base-add3q5m5-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require"
+  url      = "postgresql://neondb_owner:npg_RQCBXrFUb90p@ep-dawn-queen-a4wvn0hk-pooler.us-east-1.aws.neon.tech/neondb?connect_timeout=15&sslmode=require"
 }
 
 model addresses {
