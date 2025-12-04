@@ -43,7 +43,7 @@ export const createApp = ({
   app.use(cookieParser())
 
   // CORS
-  const allowedOrigins = ['http://localhost:5173', '*.infraxio.app', '*.medstreamhealthcare.com']
+  const allowedOrigins = ['http://localhost:5173', '*.infraxio.app', '*.vercel.app',  '*.medstreamhealthcare.com']
   const corsOptions = {
     origin: function (origin, callback) {
       if (!origin) return callback(null, true) // Allow requests with no origin (like mobile apps or curl requests)
